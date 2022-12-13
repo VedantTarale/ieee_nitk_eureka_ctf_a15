@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("https://www.foottheball.com/wp-content/uploads/2022/11/Argentina-football-identity.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#control-btn {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: rgba(57, 55, 172, 0.3);
+    backdrop-filter: blur(15px);
+    border-top-left-radius: 48px;
+    border-top-right-radius: 48px;
+}
+
+.title {
+    width: 90%;
+    text-align: center;
+    font-size: x-large;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    margin-top: 5px;
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    column-gap: 10px;
+    row-gap: 5px;
+    grid-template-rows: auto auto;
+    background-color: white;
+    margin-top: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(2px);
+    border-bottom-left-radius: 48px;
+    border-bottom-right-radius: 48px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+td:nth-child(odd),td:nth-last-child(1){
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+tr:hover {
+    background-color: #2bbcbc;
+}
