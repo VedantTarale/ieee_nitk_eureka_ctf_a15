@@ -9,3 +9,8 @@ function play_pause_audio() {
     element.setAttribute("class", "fa fa-play fa-3x");
   }
 }
+function end_function() {
+  element = document.getElementsByClassName("fa-pause fa-3x")[0];
+  document.getElementById("music").pause();
+  element.setAttribute("class", "fa fa-play fa-3x");
+}
